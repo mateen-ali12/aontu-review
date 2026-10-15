@@ -2,7 +2,7 @@
 
 *Mateen Ali, October 2026*
 
-I didn't go looking for Aontu. I met it because the Voxgig SDK generator stores its whole model in `.aontu` files, and last week I used that generator to build an SDK for the Resend email API. By the end I had written about 350 lines of Aontu and read many more.
+I didn't go looking for Aontu. I met it because the Voxgig SDK generator stores its whole model in `.aontu` files, and this week I used that generator to build an SDK for the Resend email API. By the end I had written about 350 lines of Aontu and read many more.
 
 Aontu is a JSON superset whose single operation is unification. You make several statements about the same value, and they either narrow it to something more specific or fail. Anyone who has used CUE will recognise the idea. The basic example from the docs:
 
