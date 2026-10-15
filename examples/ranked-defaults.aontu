@@ -1,0 +1,2 @@
+entity: &: active: **false
+entity: card: active: *true

@@ -1,0 +1,1 @@
+main: kit: target: py: publish: version: "2.0"

@@ -1,0 +1,6 @@
+main: kit: target: &: {
+  name: key()
+  active: *true | boolean
+  ext: string
+  publish: version: *'0.0.1' | string
+}
