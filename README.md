@@ -111,7 +111,7 @@ aontu: warning: include resolved outside the entry root: .../node_modules/@voxgi
 
 Every Voxgig SDK project includes its schemas from `node_modules`, so the announced default would break all of them. The generator calls Aontu as a library, and that path doesn't show the warning, so the people affected won't see it coming. The homepage install line also pins `aontu@0.73.0`, while npm served 0.76.0 when I tested. That's three minor versions of drift on the first command a newcomer copies.
 
-The third problem is scope. `aontu --help` lists 28 verbs, including a package manager (`add`, `publish`, `pkg vendor`), signing keys (`pkg keygen`), an MCP server, an LSP and an `AGENTS.md` generator. The core language guide is a 59-line card, which I like. But a pre-1.0 language that is still renaming its own file extension is also shipping a package registry with signatures. I'd rather see the include rules and the extension fixed, with a stability promise attached, before the language grows its own supply chain.
+The third problem is scope. The homepage advertises 28 verbs, including a package manager (`add`, `publish`, `pkg vendor`), signing keys (`pkg keygen`), an MCP server, an LSP and an `AGENTS.md` generator. The core language guide is a 59-line card, which I like. But a pre-1.0 language that is still renaming its own file extension is also shipping a package registry with signatures. I'd rather see the include rules and the extension fixed, with a stability promise attached, before the language grows its own supply chain.
 
 ## Would I choose it?
 
